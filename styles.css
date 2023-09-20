@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("fundo.png");
+    background-size: 100%;
+}
+
+.titulo{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.play{
+   text-align: center;
+   padding: 1rem;
+   margin: 3rem 35rem 0rem 35rem;
+   border: 2px solid whitesmoke;
+   cursor: pointer;
+   color: whitesmoke;
+   font-size: 2rem;
+}
+
+.play:hover{
+    background-color: #04DC6a;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-banner{
+    width: 50%;
+    height: 50%;
+}
+
+.question-section{
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 0rem 2rem 2rem 2rem; 
+    border: 2px solid whitesmoke;
+    color: white;
+}
+
+.question{
+    padding: 3rem;
+}
+
+.alternativas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.alternativa-container{
+    border: 2px solid whitesmoke;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 1px;
+    color: white;
+}
+.alternativa-container:hover{
+    background-color: #04DC6a;
+    color: black;
+}
+
+.botaopremio{
+    background-color: #04DC6a;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40% 0 40%;
+}
+
+.placar{
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    background-image: url("fundo.png");
+    padding: 5px;
+}
+.botaopremio-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.botaofechar{
+    background-color: #04DC6a;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    color: white;
+    margin-top: 2rem;
+}
+.logo-fechar{
+    width: 15%;
+}
+
+.valores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.premioatual{
+    color: #04DC6a;
+    font-size: 2.5rem;
+}
+
+.img-icone{
+    width: 15%;
+}
+
+.titulo-premio{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.ganhou{
+    position:fixed;
+    z-index: 1;
+    color:black;
+    background-image: url('fundo.png');
+    border: 3px solid whitesmoke;
+    padding: 5rem;
+    margin: 18%;
+}
+
+.texto-ganhou{
+    color: #04DC6a;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.botaofechar-ganhou{
+    background-color: #04DC6a;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    color: white;
+    margin-top: 2rem;
+    width: 40rem;
+}
+
+.fechado{
+    display: none;
+}
+

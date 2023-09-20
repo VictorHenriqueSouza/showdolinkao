@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--MODAL PREMIO-->
+    <div class="placar fechado" id="placar">
+        <div class="valores">
+            <h1 class="titulo-premio">VALENDO:</h1>
+            <p id="premio15" class="valor-premio">1.000.000</p>
+            <p id="premio14" class="valor-premio">900.000</p>
+            <p id="premio13" class="valor-premio">800.000</p>
+            <p id="premio12" class="valor-premio">700.000</p>
+            <p id="premio11" class="valor-premio">600.000</p>
+            <p id="premio10" class="valor-premio">500.000</p>
+            <p id="premio9" class="valor-premio">400.000</p>
+            <p id="premio8" class="valor-premio">300.000</p>
+            <p id="premio7" class="valor-premio">200.000</p>
+            <p id="premio6" class="valor-premio">100.000</p>
+            <p id="premio5" class="valor-premio">60.000</p>
+            <p id="premio4" class="valor-premio">50.000</p>
+            <p id="premio3" class="valor-premio">20.000</p>
+            <p id="premio2" class="valor-premio">10.000</p>
+            <p id="premio1" class="premioatual" class="valor-premio">1.000</p>
+        </div>
+        <div>
+            <p class="botaofechar" id="voltarperguntas"><img src="logopreta.png" class="logo-fechar"></p>
+        </div>
+    </div>
+    <!--MODALGANHOU-->
+    <div class="ganhou fechado" id="ganhou">
+        <p class="texto-ganhou">Resposta certa!</p>
+        <p class="botaofechar-ganhou" id="button-ganhou"><img src="logopreta.png" class="logo-fechar"></p>
+    </div>
+    <!--MODALPERDEU-->
+    <div class="ganhou fechado" id="perdeu">
+        <p class="texto-ganhou">Resposta errada! :(</p>
+        <p class="botaofechar-ganhou" id="button-perdeu"><img src="logopreta.png" class="logo-fechar"></p>
+    </div>
+    <!--MAIN-->
+    <div class="banner-container">
+        <img src="baner.png" alt="" class="img-banner">
+    </div>
+    <p class="play" id="comecar">Começar!</p>
+   <section class="question-placar fechado" id="game">
+        <div class="question-section">
+            <!--questao1-->
+            <div class="fechado" id="questao1">
+                <div class="question">
+                    <h1>Quem ganhou a copa de 2002?</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa1 alternativa-container errou" id="alternativaA1">A)Argentina</p>
+                    <p class="alternativa2 alternativa-container errou" id="alternativaB1">B)Alemanha</p>
+                    <p class="alternativa3 alternativa-container" id="alternativaC1">C)Brasil</p>
+                    <p class="alternativa4 alternativa-container errou" id="alternativaD1">D)França</p>
+                </div>
+            </div>
+            <!--questao2-->
+            <div class="fechado" id="questao2">
+                <div class="question">
+                    <h1>2</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA2">A</p>
+                    <p class="alternativa-container" id="alternativaB2">B)</p>
+                    <p class="alternativa-container" id="alternativaC2">C)</p>
+                    <p class="alternativa-container" id="alternativaD2">D)</p>
+                </div>
+            </div>
+            <!--questao3-->
+            <div class="fechado" id="questao3">
+                <div class="question">
+                    <h1>3</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA3">A)</p>
+                    <p class="alternativa-container" id="alternativaB3">B)</p>
+                    <p class="alternativa-container" id="alternativaC3">C)</p>
+                    <p class="alternativa-container" id="alternativaD3">D)</p>
+                </div>
+            </div>
+            <!--questao4-->
+            <div class="fechado" id="questao4">
+                <div class="question">
+                    <h1>4</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA4">A)</p>
+                    <p class="alternativa-container" id="alternativaB4">B)</p>
+                    <p class="alternativa-container" id="alternativaC4">C)</p>
+                    <p class="alternativa-container" id="alternativaD4">D)</p>
+                </div>
+            </div>
+             <!--questao5-->
+             <div class="fechado" id="questao5">
+                <div class="question">
+                    <h1>5</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA5">A)</p>
+                    <p class="alternativa-container" id="alternativaB5">B)</p>
+                    <p class="alternativa-container" id="alternativaC5">C)</p>
+                    <p class="alternativa-container" id="alternativaD5">D)</p>
+                </div>
+            </div>
+             <!--questao6-->
+             <div class="fechado" id="questao6">
+                <div class="question">
+                    <h1>6</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA6">A)</p>
+                    <p class="alternativa-container" id="alternativaB6">B)</p>
+                    <p class="alternativa-container" id="alternativaC6">C)</p>
+                    <p class="alternativa-container" id="alternativaD6">D)</p>
+                </div>
+            </div>
+             <!--questao7-->
+             <div class="fechado" id="questao7">
+                <div class="question">
+                    <h1>7</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA7">A)</p>
+                    <p class="alternativa-container" id="alternativaB7">B)</p>
+                    <p class="alternativa-container" id="alternativaC7">C)</p>
+                    <p class="alternativa-container" id="alternativaD7">D)</p>
+                </div>
+            </div>
+             <!--questao8-->
+             <div class="fechado" id="questao8">
+                <div class="question">
+                    <h1>8</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA8">A)</p>
+                    <p class="alternativa-container" id="alternativaB8">B)</p>
+                    <p class="alternativa-container" id="alternativaC8">C)</p>
+                    <p class="alternativa-container" id="alternativaD8">D)</p>
+                </div>
+            </div>
+             <!--questao9-->
+             <div class="fechado" id="questao9">
+                <div class="question">
+                    <h1>9</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA9">A)</p>
+                    <p class="alternativa-container" id="alternativaB9">B)</p>
+                    <p class="alternativa-container" id="alternativaC9">C)</p>
+                    <p class="alternativa-container" id="alternativaD9">D)</p>
+                </div>
+            </div>
+             <!--questao10-->
+             <div class="fechado" id="questao10">
+                <div class="question">
+                    <h1>10</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA10">A)</p>
+                    <p class="alternativa-container" id="alternativaB10">B)</p>
+                    <p class="alternativa-container" id="alternativaC10">C)</p>
+                    <p class="alternativa-container" id="alternativaD10">D)</p>
+                </div>
+            </div>
+             <!--questao11-->
+             <div class="fechado" id="questao11">
+                <div class="question">
+                    <h1>11</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA11">A)</p>
+                    <p class="alternativa-container" id="alternativaB11">B)</p>
+                    <p class="alternativa-container" id="alternativaC11">C)</p>
+                    <p class="alternativa-container" id="alternativaD11">D)</p>
+                </div>
+            </div>
+             <!--questao12-->
+             <div class="fechado" id="questao12">
+                <div class="question">
+                    <h1>12</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA12">A)</p>
+                    <p class="alternativa-container" id="alternativaB12">B)</p>
+                    <p class="alternativa-container" id="alternativaC12">C)</p>
+                    <p class="alternativa-container" id="alternativaD12">D)</p>
+                </div>
+            </div>
+             <!--questao13-->
+             <div class="fechado" id="questao13">
+                <div class="question">
+                    <h1>13</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA13">A)</p>
+                    <p class="alternativa-container" id="alternativaB13">B)</p>
+                    <p class="alternativa-container" id="alternativaC13">C)</p>
+                    <p class="alternativa-container" id="alternativaD13">D)</p>
+                </div>
+            </div>
+             <!--questao14-->
+             <div class="fechado" id="questao14">
+                <div class="question">
+                    <h1>14</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA14">A)</p>
+                    <p class="alternativa-container" id="alternativaB14">B)</p>
+                    <p class="alternativa-container" id="alternativaC14">C)</p>
+                    <p class="alternativa-container" id="alternativaD14">D)</p>
+                </div>
+            </div>
+             <!--questao15-->
+             <div class="fechado" id="questao15">
+                <div class="question">
+                    <h1>15</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA15">A)</p>
+                    <p class="alternativa-container" id="alternativaB15">B)</p>
+                    <p class="alternativa-container" id="alternativaC15">C)</p>
+                    <p class="alternativa-container" id="alternativaD15">D)</p>
+                </div>
+            </div>
+             <!--questao16-->
+             <div class="fechado" id="questao16">
+                <div class="question">
+                    <h1>16</h1>
+                </div>
+                <div class="alternativas">
+                    <p class="alternativa-container" id="alternativaA16">A)</p>
+                    <p class="alternativa-container" id="alternativaB16">B)</p>
+                    <p class="alternativa-container" id="alternativaC16">C)</p>
+                    <p class="alternativa-container" id="alternativaD16">D)</p>
+                </div>
+            </div>
+        </div>
+        <div class="botaopremio-container">
+            <p class="botaopremio" id="botaoplacar"><img src="Icone.png" alt="" class="img-icone"></p>
+        </div>
+   </section>
+   <script src="main.js"></script>
+</body>
+</html>
